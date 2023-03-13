@@ -1,0 +1,23 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: gray;
+}
+
+table,
+td,
+th {
+    margin-top: 2.5rem;
+    border: 0.8px solid rgb(148, 5, 5);
+    min-width: 100px;
+    height: 28px;
+    background-color: black;
+    color: rgb(163, 7, 7);
+}
